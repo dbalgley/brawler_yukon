@@ -5,7 +5,7 @@ module.exports = defineConfig({
   pluginOptions: {
     s3Deploy: {
       awsProfile: 'default',
-      region: 'us-east-1',
+      region: 'us-east-2',
       bucket: 'www.davisbalgley.com',
       createBucket: false,
       staticHosting: true,
@@ -21,7 +21,7 @@ module.exports = defineConfig({
       pluginVersion: '4.0.0-rc3',
       registry: undefined,
       overrideEndpoint: true,
-      endpoint: 'https://s3-us-west-1.amazonaws.com'
+      endpoint: 'https://s3-us-east-2.amazonaws.com'
     }
   }
 })
