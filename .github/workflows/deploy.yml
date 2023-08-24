@@ -25,9 +25,7 @@ jobs:
       run: npm run build
 
     - name: Deploy to S3
-      uses: jakejarvis/s3-sync-action@master
-      with:
-        args: --acl public-read --delete
+      run: npm run s3-deploy
       env:
         AWS_S3_BUCKET: www.davisbalgley.com
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
