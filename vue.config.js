@@ -5,9 +5,9 @@ module.exports = defineConfig({
   pluginOptions: {
     s3Deploy: {
       awsProfile: 'default',
-      region: 'us-west-1',
+      region: 'us-east-1',
       bucket: 'www.davisbalgley.com',
-      createBucket: true,
+      createBucket: false,
       staticHosting: true,
       staticIndexPage: 'index.html',
       staticErrorPage: 'index.html',
@@ -18,7 +18,10 @@ module.exports = defineConfig({
       pwa: false,
       enableCloudfront: false,
       uploadConcurrency: 5,
-      pluginVersion: '3.0.0'
+      pluginVersion: '4.0.0-rc3',
+      registry: undefined,
+      overrideEndpoint: true,
+      endpoint: 'https://s3-us-west-1.amazonaws.com'
     }
   }
 })
