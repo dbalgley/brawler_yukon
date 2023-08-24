@@ -7,7 +7,7 @@
 node_modules/
 
 # Build directory (if you have a build process)
-#/dist
+/dist
 /build
 
 # Cache and temporary files
