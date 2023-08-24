@@ -25,7 +25,7 @@ module.exports = defineConfig({
       acl: 'public-read',
       pwa: false,
       enableCloudfront: true,
-      cloudfrontId: E303J9UPM8BEV7,
+      cloudfrontId: 'E303J9UPM8BEV7',
       cloudfrontMatchers: '/*',
       uploadConcurrency: 5,
       pluginVersion: '4.0.0-rc3',
