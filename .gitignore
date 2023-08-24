@@ -1,44 +1,23 @@
-# Editor folders and files
-.vscode/
-*.swp
-*.swo
-
-# Node modules (if using any tooling like Gulp, Webpack, etc.)
-node_modules/
-
-# Build directory (if you have a build process)
+.DS_Store
+node_modules
 /dist
-/build
 
-# Cache and temporary files
-*.log
-*.tmp
-*.temp
-.cache/
 
-# Other files and directories you don't want to track
-/secrets/
-.env
+# local env files
 .env.local
 .env.*.local
 
-# Logs
+# Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.log
-
-# Editor directories
+# Editor directories and files
+.idea
+.vscode
 *.suo
 *.ntvs*
 *.njsproj
-*.tmproj
-*.log
-
-# Local Netlify folder
-.netlify/
+*.sln
+*.sw?
