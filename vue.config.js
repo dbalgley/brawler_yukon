@@ -8,7 +8,7 @@ module.exports = defineConfig({
       region: 'us-east-2',
       bucket: 'www.davisbalgley.com',
       createBucket: false,
-      staticHosting: true,
+      staticHosting: false,
       staticIndexPage: 'index.html',
       staticErrorPage: 'index.html',
       assetPath: 'dist',
