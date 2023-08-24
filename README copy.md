@@ -1,6 +1,3 @@
-# brawler_yukon
-Personal Webpage
-
 # brawler_yukon_vue
 
 ## Project setup
