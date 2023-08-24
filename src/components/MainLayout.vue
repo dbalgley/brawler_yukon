@@ -9,6 +9,17 @@
       <v-list-item to="/printing">3D Printing Portfolio</v-list-item>
       <v-list-item to="/knitting">Knitting Portfolio</v-list-item>
       <v-list-item to="/blog">Blog</v-list-item>
+
+    
+    <!-- GitHub Button -->
+    <a href="https://github.com/dbalgley" target="_blank" class="social-button">
+      <font-awesome-icon :icon="['fab', 'github']" size="2x" />
+    </a>
+    
+    <!-- LinkedIn Button -->
+    <a href="https://www.linkedin.com/in/dbalgley/" target="_blank" class="social-button">
+      <font-awesome-icon :icon="['fab', 'linkedin']" size="2x" />
+    </a>
     </v-navigation-drawer>
 
     <v-app-bar app>
