@@ -1,5 +1,13 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
+  pages: {
+    index: {
+      entry: 'src/main.js',
+      template: 'public/index.html',
+      filename: 'index.html',
+      title: 'Davis\'s WebXone'
+    }
+  },
   transpileDependencies: true,
 
   pluginOptions: {
@@ -16,7 +24,9 @@ module.exports = defineConfig({
       deployPath: '/',
       acl: 'public-read',
       pwa: false,
-      enableCloudfront: false,
+      enableCloudfront: true,
+      cloudfrontId: E303J9UPM8BEV7,
+      cloudfrontMatchers: '/*',
       uploadConcurrency: 5,
       pluginVersion: '4.0.0-rc3',
       registry: undefined,
