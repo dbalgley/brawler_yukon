@@ -2,7 +2,7 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import './assets/App.css';  // Import the main CSS file
@@ -39,6 +39,6 @@ const vuetify = createVuetify({
   }
 })
 
-library.add(faGithub, faLinkedin, faInstagram, faBars)
+library.add(faGithub, faLinkedin, faInstagram, faYoutube, faBars)
 
 createApp(App).use(router).use(vuetify).use(VueParticles).component('font-awesome-icon', FontAwesomeIcon).mount('#app');

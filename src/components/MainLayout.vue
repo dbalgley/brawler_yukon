@@ -54,6 +54,13 @@
             <font-awesome-icon :icon="['fab', 'instagram']" size="2x" />
           </a>
         </v-col>
+        
+        <!-- Youtube Button -->
+        <v-col cols="auto" class="px-2">
+          <a href="https://www.youtube.com/channel/UCNUK5BRKAZqOQ4YSpVmUWnQ/" target="_blank" class="social-button">
+            <font-awesome-icon :icon="['fab', 'youtube']" size="2x" />
+          </a>
+        </v-col>
       </v-row>
     </v-container>
     </v-navigation-drawer>
