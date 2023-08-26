@@ -1,8 +1,23 @@
 <template>
   <div>
     
-    <vue-particles class="particles" color="#dedede"></vue-particles>
   <v-app dark>
+    <vue-particles class="particles"
+        color="#dedede"
+        :particleOpacity="0.7"
+        :particlesNumber="80"
+        shapeType="circle"
+        :particleSize="4"
+        linesColor="#dedede"
+        :linesWidth="1"
+        :lineLinked="true"
+        :lineOpacity="0.4"
+        :linesDistance="150"
+        :moveSpeed="3"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="true"
+        clickMode="push"></vue-particles>
     <v-navigation-drawer v-model="drawer" app mobile-break-point="1264" v-cloak>
       <v-list-item to="/">Home</v-list-item>
       <v-list-item to="/about_me">About Me</v-list-item>
