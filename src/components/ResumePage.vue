@@ -1,20 +1,23 @@
 <!-- src/components/ResumePage.vue -->
 <template>
-    <div class="resume-page">
-        <h1>Resume</h1>
-    </div>
+  <PageTemplate title="Resume">
+    <p>
+      Please find my resume embedded here, as well as available for download. 
+    </p>
+  </PageTemplate>
+  <div class="resume-page">
+    <object data="/DavisBalgleyResume2023-dxt.pdf" type="application/pdf" width="100%" height=1000px>
+      <p>It seems you don't have a PDF plugin for this browser. No problem, you can <a href="/DavisBalgleyResume2023-dxt.pdf.pdf">click here to download the PDF file.</a></p>
+    </object>
+  </div>
 </template>
 
-<script>
-export default {
-    name: "ResumePage"
-};
+<script setup>
+  import PageTemplate from './PageTemplate.vue'
 </script>
 
 <style scoped>
-  .resume-page iframe {
-    width: 100%;
-    height: 400px;
-    margin-bottom: 20px;
+  .resume-page {
+    margin-top: 20px;
   }
 </style>

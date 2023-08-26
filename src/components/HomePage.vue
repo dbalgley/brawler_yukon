@@ -1,40 +1,19 @@
+<!-- src/components/HomePage.vue -->
 <template>
-    <v-main>
-    <v-container>
-        <!-- Text paragraphs -->
-        <v-row>
-        <v-col cols="12">
-            <p></p>
-        </v-col>
-        </v-row>
+    <p>Hello, my name is</p>
+    <PageTemplate title="Davis Balgley">
+        <p>Welcome to my digital domain! I am a tech enthusiast and creative soul with a knack for software
+             development and digital design. Dive deep into my portfolios to witness an amalgamation of code, art, 
+             and innovation. From intricate software projects to breathtaking drone videography, and detailed 3D prints 
+             – here's a glimpse of my multifaceted journey. Feel free to explore, connect, and embark on this digital 
+             adventure with me.
+        </p>
+    </PageTemplate>
+</template>
 
-        <!-- Photos/Videos -->
-        <v-row>
-        <v-col cols="12">
-            <!-- <v-img src="@/path-to-your-image.jpg" aspect-ratio="16/9"></v-img> -->
-        </v-col>
-        <v-col cols="12">
-            <video controls width="100%">
-            <!-- <source src="@/path-to-your-video.mp4" type="video/mp4"> -->
-            </video>
-        </v-col>
-        </v-row>
-    </v-container>
-    </v-main>
-  
-      <v-footer app>
-        <span>&copy; 2023</span>
-      </v-footer>
-  </template>
-  
-  <script>
-  export default {
-    name: 'MyPage',
-    data() {
-      return {};
-    },
-  };
-  </script>
+<script setup>
+import PageTemplate from './PageTemplate.vue';
+</script>
   
   <style scoped>
   /* You can add custom styling here, e.g., colors, typography, etc. to match ChatGPT's UI */
