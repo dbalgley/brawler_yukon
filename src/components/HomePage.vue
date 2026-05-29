@@ -15,6 +15,7 @@
         <p>This website is a Vue.js single-page application compiled into static assets and delivered through a
             cloud-native hosting stack. The site is stored in Amazon S3, distributed globally through Amazon
             CloudFront, secured with AWS Certificate Manager, and served under a domain managed by Cloudflare DNS.
+            Additionally, the source follows CI/CD practices and is deployed to the S3 bucket on merge to main.
         </p>
         <p>
             The current architecture emphasizes simplicity, reliability, and low operational overhead. By leveraging
