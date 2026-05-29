@@ -88,7 +88,7 @@
         </v-row>
       </v-container>
       <v-footer app>
-        <span>&copy; 2023</span>
+        <span>&copy; 2026</span>
       </v-footer>
     </v-main>
   </v-app>
