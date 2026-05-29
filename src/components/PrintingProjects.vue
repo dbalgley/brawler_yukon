@@ -19,6 +19,8 @@
     <p>
       The experience solidified a valuable lesson for me: Sometimes, it's not just about picking up a hobby; it's about recognizing its potential to make a tangible difference. As I continue my journey with 3D printing, I'm reminded of those challenging times and the incredible impact we can have when passion meets purpose.
     </p>
+
+  <h1>WATCH THIS SPACE! I'm getting back into it!</h1>
   </PageTemplate>
 </template>
 
